@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model exam of Kaopiz">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL"
+               value="https://phptravels.net/admin" />
+    <test name="sample test">
+        <classes>
+<!--            <class name="test02.testcase.TC_01_Login_Success">-->
+            <class name="test02.testcase.TC_02_checkPlaceHolder">
+                <methods>
+<!--                    <include name="signIn" />-->
+<!--                    <include name="verifyPlaceHolder" />-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
